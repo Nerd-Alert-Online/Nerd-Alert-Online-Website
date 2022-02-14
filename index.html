@@ -1,12 +1,126 @@
-<html>  
-    <head>  
-        <title>NerdAlert</title>  
-    </head>    
-    <body style="background-color:black;">  
-        <center>  
-            <h2 style="padding-top: 100px">
-	    </h2>  
-            <img src="nerdeso.jpg"/>  
-        </center>  
-    </body>  
-</html>  
+<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+<head>
+	<!-- Document Settings -->
+	<meta charset="UTF-8" />
+
+	<!-- Page Meta -->
+	<title>NerdAlert - Multi-Ladder RA2 YR gaming platform</title>
+	<meta name="description" content="Multi-Ladder RA2 YR gaming platform" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<!-- Styles -->
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic%7CRoboto+Slab:400,700" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/style.css" />
+        
+	<!-- Scripts -->
+	<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+</head>
+
+<body>
+	<div class="wrap">
+		<main id="main" class="site-main">
+
+			<!-- Front -->
+			<div id="front" class="site-front">
+				<div class="inner">
+
+					<!-- Header -->
+					<header class="site-header">
+						<p class="site-logo fade-in"><img src="images/nerdeso.jpg" width="320" alt="NerdAlert banner" /></p>
+						<h1 class="site-title screen-reader-text">InTime</h1>
+					</header>
+
+					<section class="content">
+						<h2 class="section-title">mining gems</h2>
+
+						<!-- Countdown timer -->
+						<div class="countdown-timer">
+							<p class="subtitle">Time Left Until Launching</p>
+							<div id="timer"></div>
+						</div>
+
+						<!-- Social links -->
+						<div class="social-links">
+							<a href="https://github.com/Nerd-Alert-Online" target="_blank"><i class="fa-github" aria-hidden="true"></i><span class="screen-reader-text">Project Home</span></a>
+							<a href="https://discord.gg/YurisRevenge" target="_blank"><i class="fa-mobile" aria-hidden="true"></i><span class="screen-reader-text">Yuri's Revenge Discord Server</span></a>
+						</div>
+
+					</section>
+
+					<!-- Modal toggle -->
+					<div class="modal-toggle">
+						<span class="modal-note">Read More</span>
+						<button id="modal-open"><span class="screen-reader-text">Open</span><span aria-hidden="true" class="icon-plus"></span></button>
+					</div>
+
+				</div><!-- .inner -->
+			</div><!-- .site-front -->
+
+			<!-- Modal (About Us) -->
+			<div id="modal" class="site-modal">
+				<div class="modal-scrollable">
+					<div class="inner">
+
+						<!-- Modal toggle -->
+						<div class="modal-toggle">
+							<button id="modal-close"><span class="screen-reader-text">Close</span><span aria-hidden="true" class="icon-plus"></span></button>
+						</div>
+
+						<section class="content">
+							<h2 class="section-title">NerdAlert</h2>
+
+							<!-- Columns -->
+							<div class="row">
+								<div class="one-half">
+									<p>Integer mollis risus sem, at volutpat eros pellentesque in. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean rhoncus porttitor nisi ut aliquam. Curabitur sed egestas velit.</p>
+									<p>Fusce sed tincidunt lacus, et porta sapien. Vestibulum non erat purus. Vestibulum at augue dui. In vulputate rutrum eros at placerat. Morbi et dui eget ante convallis facilisis. Nullam et mollis sapien. Integer vel nisl erat. Maecenas tempor lectus condimentum sagittis molestie.</p>
+								</div>
+								<div class="one-half">
+									<h3><i class="fa-phone" aria-hidden="true"></i> Phone</h3>
+									<p>Mobile: (976) 99000287</p>
+									<h3><i class="fa-envelope" aria-hidden="true"></i> Email</h3>
+									<p>codesaur@gmail.com</p>
+									<h3><i class="fa-map-marker" aria-hidden="true"></i> Address</h3>
+									<p>Heck Freeze</p>
+								</div>
+							</div>
+
+						</section>
+
+					</div><!-- .inner -->
+				</div><!-- .modal-scrollable -->
+			</div><!-- .site-modal -->
+
+		</main><!-- .site-main -->
+	</div><!-- .wrap -->
+
+	<!-- Background overlay -->
+	<div class="overlay"></div>
+
+	<!-- YouTube background video -->
+	<div id="bg-video" data-property="{videoURL:'https://www.youtube.com/watch?v=EPloFG3WeGM', containment:'body', autoPlay:true, mute:true, startAt:0, showControls:true, mobileFallbackImage:'images/poster.jpg'}"></div>
+	<div id="bg-video-controls">
+		<button id="bg-video-volume"><i class="fa-volume-off-custom" aria-hidden="true"></i> <span class="screen-reader-text">Unmute</span></button>
+		<button id="bg-video-play"><i class="fa-pause-custom" aria-hidden="true"></i> <span class="screen-reader-text">Pause</span></button>
+	</div>
+
+	<!-- Loading... -->
+	<div id="preload">
+		<div id="preload-content">
+			<div class="preload-spinner">
+				<span class="bounce1"></span>
+				<span class="bounce2"></span>
+				<span class="bounce3"></span>
+			</div>
+			<div class="preload-text">Loading...</div>
+		</div>
+	</div>
+
+	<!-- Scripts -->
+	<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript" src="js/plugins.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+
+</body>
+</html>
